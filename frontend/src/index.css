@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #333;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: #555;
+}
+
+.stage-form,
+.stage-list {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stage-form h2,
+.stage-list h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.stage-form div {
+  margin-bottom: 1rem;
+}
+
+.stage-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.stage-form input,
+.stage-form textarea,
+.stage-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.stage-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.stage-form button {
+  background: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.stage-form button:hover {
+  background: #0056b3;
+}
+
+.stage-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background: #f8f9fa;
+  font-weight: bold;
+}
+
+.status-en-attente {
+  color: #856404;
+  background: #fff3cd;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.status-valide {
+  color: #155724;
+  background: #d4edda;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.status-refuse {
+  color: #721c24;
+  background: #f8d7da;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
